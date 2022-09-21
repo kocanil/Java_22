@@ -2,7 +2,7 @@
 public class Main {
 
 	public static void main(String[] args) {
-		int num = 20;
+		int num = 23;
 		
 		if (num>20) {
 			System.out.println("sayı 20 den büyüktür");	
