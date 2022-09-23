@@ -2,20 +2,19 @@
 public class Main {
 
 	public static void main(String[] args) {
-		int num = 23;
 		
-		if (num>20) {
-			System.out.println("sayı 20 den büyüktür");	
-		}
+		/* DefensiveProgramming */
+		int num = 21;
 		
 		if (num<20) {
-			System.out.println("sayı 20 den küçüktür");
+			System.out.println("given number is less than 20");	
 		}
-		
+		else if (num==20) {
+			System.out.println("given number is equal to 20");
+		}
 		else {
-			System.out.println("sayı 20 ye eşittir");
+			System.out.println("given number is greater than 20");
 		}
-		
 
 	}
 
